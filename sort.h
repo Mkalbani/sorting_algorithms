@@ -28,6 +28,11 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-
+void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
+void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void merge_recursion(int *arr, int *array, size_t left, size_t right);
+void merge_subarray(int *arr, int *array, size_t left, size_t middle, size_t right);
 
 #endif
